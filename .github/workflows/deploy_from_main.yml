@@ -27,7 +27,7 @@ jobs:
       - run: npm install
       - run: |
           git config --global user.email "julien.guyot@datacraft.paris"
-          git config --global user.name "DrKapichu"
+          git config --global user.name "datacraft-paris"
           npm run deploy
         env:
           GIT_USER: ${{ secrets.GIT_USER }}
