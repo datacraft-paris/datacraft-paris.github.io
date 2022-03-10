@@ -1,0 +1,63 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* @media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+} */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
+.card {
+  margin-bottom: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+header > .card {    /* <-- This modifies the style of the shaded presentation card on the home page */
+  background-color: #FFFFFF   /*rgba(22, 41, 60, .7);*/
+}
+
+main > .card {
+  z-index: 10;    /* <-- This modifies the style of the two small  news and summary cards on the home page */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+}
+
+.mainCardColumn {
+  padding-left: 20px;
+   padding-right: 20px;
+}
+
+@media screen and (max-width: 966px) {
+  .mainCardColumn:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,262 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #15db69;  /* #d7c378; */      /* <-- Color for clickable links (internal and external links, emails...) AND missing elements; datacraft style #15db69 (gray=#8d8b87) */
+  --ifm-color-primary-dark: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-darker: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-darkest: #FFFFFF;  /* #00ADD0; */
+  --ifm-color-primary-light: #FFFFFF;  /* #d7c378; */
+  --ifm-color-primary-lighter: #FFFFFF;  /* #d7c378; */
+  --ifm-color-primary-lightest: #FFFFFF;  /* #d7c378; */
+  --ifm-font-color-base: #000000;          /* <-- Change the text/font color */
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #FFFFFF;    /* <-- Color of the navigation bar: https://imagecolorpicker.com/color-code/  */
+  --ifm-footer-background-color: #FFFFFF;    /* <-- Color of the footer... Really poor choice so far... */
+  --ifm-background-color: #FFFFFF;  /* #33FF33; */
+  --ifm-background-surface-color:var(--ifm-background-color);
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(11, 124, 57);  /* <-- Change this here to check the effect */
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+@font-face {
+  font-family: "MetricRegular";
+  src: url("/fonts/Metric-Regular.otf");
+ }
+
+ @font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/Tiempos.otf") format("opentype");
+ }
+
+
+ @font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Regular.ttf") format('truetype');
+  font-weight:400;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Medium.ttf") format('truetype');
+  font-weight:500;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Bold.ttf") format('truetype');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Black.ttf") format('truetype');
+  font-weight:900;
+}
+
+.container-wide{
+  max-width:90% !important;
+}
+
+
+.img-blog-header{
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+
+/* Image style inside blog posts */
+.blog-article-custom img{
+  max-width:75%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:1rem;
+}
+
+
+body{
+  font-family: "InterCustom";
+  /* font-size:14px; */
+}
+
+h1{
+  font-family: "Tiempos";
+}
+
+.navbar__title{
+  font-family: "Tiempos";
+}
+
+.navbar__item{
+  font-size:16px;
+}
+
+.navbar__brand{
+  font-size:16px;
+}
+
+.goldencolor{
+  color:var(--ifm-color-primary);
+}
+
+.gold{
+  color:var(--ifm-color-primary);
+}
+
+.datacraft-green{
+  color: #15db69;
+}
+
+.hero__title{
+  font-size:40px;
+  text-align: center;
+}
+
+.hero--blue{    /* <-- Background color of something, I don't know what... */
+  background-color: #FFFFFF   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
+  /* max-width: 300px; */
+  margin: auto;
+  text-align: center;
+  font-family: arial;          /* <-- This is the general theme color of the shortcard - see Blog page */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  border-radius: 0px;
+  height:100%;
+}
+
+
+.card__image{
+  width:100%;
+  height:200px;
+}
+
+.card__image > img{
+  width:100%;
+  object-fit: cover;
+  height:200px;
+}
+
+.hero__subtitle{
+  text-align: left;
+}
+
+html[data-theme="dark"]{             /* <-- Background color of all pages... | Previous setting by Theo A.:  #16293c */
+  --ifm-background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.prism-code{
+  font-size: 14px;
+}
+
+.badge.badge--primary{
+  margin-right:5px;
+  color:black;
+  font-family:"InterCustom";
+}
+
+.badge{
+  font-size:70%
+}
+
+.badge.badge--primary > a{
+  color:black;
+  font-family: 'Segoe UI';
+}
+
+
+
+.longcard{                     /* <-- This is the general theme color of the Longcard - see Open Source page */
+  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  margin-bottom: 40px;
+  padding-bottom:0px !important;
+  min-height:200px;
+
+}
+
+.shortcard-container{
+  margin-bottom: 30px;
+}
+
+
+.shortcard{                    /* <-- This is the general theme color of the shortcard - I don't know where it's applied */
+  background-color: #5a3257;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  padding-bottom:0px !important;
+  margin-right:10px;
+  height:100%;
+}
+
+.longcard-image{
+  padding:0px !important;
+  width:100%;
+  height:200px;
+}
+
+.longcard-image > img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+
+.longcard-body{
+  padding:20px!important;
+  margin:auto;
+  /* min-height:200px; */
+}
+
+.longcard-description{
+  font-family:"InterCustom";
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+.longcard-title{
+  font-family:"InterCustom";
+  font-size:24px;
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+.shortcard-title{
+  font-family:"InterCustom";
+  font-size:20px;
+  margin-bottom:0px;
+  vertical-align: middle;
+}
+
+
+.avatar__name{
+  font-size:12px !important;
+}
+
+.avatar__intro > time{
+  font-size:12px !important;
+}
+
+
+.row-preview{
+  margin-bottom:30px;
+}
