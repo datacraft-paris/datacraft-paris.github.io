@@ -54,7 +54,7 @@ Concrètement, reprenons notre exemple des évaluations des restaurants, la mét
 
 ![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET"){:.image-left}
 
-<!-- style="float: left"; margin-right: 10em; height="25%" width="25%"} -->
+<!-- style="float: left"; marginRight: 10em; height="25%" width="25%"} -->
 
 <!-- <img src="./img/2022-02-04-MindshakeTime/PET.png" alt="A cute kitten"
     title="A cute kitten" width="100" height="100" /> -->

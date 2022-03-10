@@ -71,11 +71,11 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
 </figure> -->
 
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
 </div>
-<p style={{'color': '#000000', 'margin-right': '1em', 'text-align': 'right'}}> <b>- Isabelle Hilali – Datacraft</b> </p>
+<p style={{'color': '#000000', 'marginRight': '1em', 'text-align': 'right'}}> <b>- Isabelle Hilali – Datacraft</b> </p>
 </div>
 
 
@@ -84,8 +84,8 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
 C’est un univers sur lequel il y a beaucoup de liberté puisque ce sont des métiers très demandés alors que trop peu de bonnes compétences sont disponibles. Les data scientists peuvent donc quelque peu « imposer » la façon dont ils ont envie de travailler. Et ils ont envie de travailler de manière flexible.
 
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "L’idée, c’était d’avoir un lieu qui donne envie de collaborer"
 </div>
 </div>
@@ -102,8 +102,8 @@ Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour per
 
 J’aimerais bien faire un portrait robot de la [data scientist](https://visionarymarketing.com/fr/2015/07/data-scientist/), mais il n’y en a pas beaucoup pour l’instant … Alors j’ai commencé par le data scientist au sens large.
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "Il n’y a pas de portrait robot du data scientist. Ce mot est utilisé un peu à tort et à travers. Il recouvre différentes réalités"
 </div>
 </div>
@@ -119,8 +119,8 @@ Certains ont une formation assez classique, une grande école d’ingénieurs ou
 
 Le bon data scientist, qui va être performant dans une organisation, doit être curieux. Il doit être ouvert à l’organisation dans laquelle il est, pour comprendre la situation et éviter de construire des modèles abstraits qui ne serviront à rien. Il doit comprendre les problématiques en allant chercher des données, en faisant de l’apprentissage machine, en développant des modèles, en s’interrogeant sur la meilleure façon d’aider à la connaissance, à la prise de décision.
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "Pour moi, le bon data scientist est quelqu’un d’ouvert et de collaboratif, et qui a des compétences en mathématiques et en informatique, ou au moins la capacité à travailler sur ces sujets"
 </div>
 </div>
@@ -138,8 +138,8 @@ Il existe bien des formations en ligne, des formations physiques, des livres, de
 
 Je me suis dit qu’il faudrait qu’il y ait des lieux qui permettent aux gens un échange de bonnes pratiques et qui soient pensés pour ça. Et en même temps qui développent la collaboration et la réflexion sur ce qu’on fait, quelles limites on veut donner quand on développe de l’intelligence artificielle.
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "Notre volonté avec Datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques"
 </div>
 </div>
@@ -177,8 +177,8 @@ C’est un prétexte. Sur un projet comme ça, des membres vont venir pendant de
 Contrairement à un hackathon, notre objectif n’est pas de faire un prototype au bout de deux jours qui souvent, en outre, n’est pas très bon.
 
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "Notre seule volonté est qu’à la fin des deux jours ou de la demi-journée, les participants repartent en se disant  » C’est génial, j’ai appris telle chose »"
 </div>
 </div>
@@ -214,8 +214,8 @@ Cela a été aussi une source de créativité pour nous, Cela nous a permis de f
 
 Et puis, ça nous a montré ce besoin de solidarité et d’échange de bonnes pratiques.
 
-<div style={{'margin-top': '1em', 'margin-left': '9em', 'margin-right': '9em', 'margin-bottom': '1em'}}>
-<div class="warning" style={{'font-size': '16px', 'background-color': '#CCCCCC', 'color': '#000000', 'border-left': 'solid #FF3300 2px', 'padding': '0.8em'}}>
+<div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
+<div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "Même si on espère bien sûr que ça durera pas trop longtemps, cette période a finalement encore renforcé nos valeurs"
 </div>
 </div>

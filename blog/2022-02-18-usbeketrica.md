@@ -20,8 +20,8 @@ keywords:
 ---
 
 
-<div style={{'margin-top': '1em', 'margin-bottom': '2em'}}>
-<div class="warning" style={{'font-size': '28px', 'color': '#69337A', 'padding': '1.0em'}}>
+<div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
+<div className="warning" style={{'fontSize': '28px', 'color': '#69337A', 'padding': '1.0em'}}>
 Stephanie Lehuger, Thinker et Entrepreneur, membre du <u>club Datacraft</u>, qui réfléchit aux questions éthiques soulevées par l’IA, nous explique dans cette tribune de quels outils et méthodes nous disposons actuellement pour qu’un préjugé humain ne se retrouve pas dans l’algorithme d’une intelligence artificielle.
 </div>
 </div>
@@ -38,8 +38,8 @@ En premier lieu, ils peuvent être le résultat d’une mauvaise collecte. Imagi
 La transmission d’un biais s’effectue donc au travers des données choisies (la « data »). Si les data scientists n’ont pas conscience que les loyers sont moins élevés dans les villes de taille moyenne et en zone rurale que dans les grandes villes et qu’ils entraînent un algorithme à prédire le prix du loyer sur ces données-là, alors ses prédictions seront biaisées aussi. Le biais d’une IA peut provenir à l’origine d’un biais cognitif humain, qui se transmet dans les données choisies qui sont biaisées, puis elles influencent ensuite les résultats en s’étant transformées en un biais algorithmique.
 
 
-<div style={{'margin-top': '1em', 'margin-bottom': '2em'}}>
-<div class="warning" style={{'font-size': '24px', 'color': '#69337A', 'border-left': 'solid #805AD5 4px', 'padding': '0.7em'}}>
+<div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
+<div className="warning" style={{'fontSize': '24px', 'color': '#69337A', 'borderLeft': 'solid #805AD5 4px', 'padding': '0.7em'}}>
 S’il existe une discrimination des femmes dans une entreprise, se baser sur les données passées pour évaluer le potentiel d’une candidate, même plus brillante qu’un concurrent masculin, lui sera défavorable
 </div>
 </div>
@@ -53,8 +53,8 @@ En deuxième lieu, les biais peuvent émaner d’une situation déjà biaisée e
 Un biais typique qu’il faut tenter d’éviter est le biais des survivants. Par exemple, quand on constate que des bâtiments de plus de cent ans sont encore debout, on a l’impression que la « construction d’antan » était de meilleure qualité qu’aujourd’hui. Pourtant, quand on y réfléchit, la quasi-totalité de ce qui a été construit depuis l’invention de la construction s’est en fait écroulée ou a été démolie, donc ces bâtiments « survivants » sont des exceptions.
 
 
-<div style={{'margin-top': '1em', 'margin-bottom': '2em'}}>
-<div class="warning" style={{'font-size': '24px', 'color': '#69337A', 'border-left': 'solid #805AD5 4px', 'padding': '0.7em'}}>
+<div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
+<div className="warning" style={{'fontSize': '24px', 'color': '#69337A', 'borderLeft': 'solid #805AD5 4px', 'padding': '0.7em'}}>
 Les data scientists doivent éviter le biais du survivant qui consisterait à tirer des conclusions sur la base d’une population incomplète
 </div>
 </div>
@@ -91,8 +91,8 @@ Après avoir pris conscience de la potentielle existence de biais, la seconde é
 
 Elle permet de vérifier les prédictions des outils d’évaluation des risques basés sur l’apprentissage automatique afin de comprendre les différents types de biais et de prendre des décisions éclairées sur le développement et le déploiement de ces systèmes. Le « fairness tree » aide à choisir la bonne métrique. Là comme ailleurs, il convient d’être attentif aux choix réalisés puisqu’il existe un nouveau biais possible. En effet, il faut avoir conscience que, en choisissant une métrique, on écarte toutes les autres.
 
-<div style={{'margin-top': '1em', 'margin-bottom': '2em'}}>
-<div class="warning" style={{'font-size': '24px', 'color': '#69337A', 'border-left': 'solid #805AD5 4px', 'padding': '0.7em'}}>
+<div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
+<div className="warning" style={{'fontSize': '24px', 'color': '#69337A', 'borderLeft': 'solid #805AD5 4px', 'padding': '0.7em'}}>
 Tout choix concernant une population étudiée devient moral en data science
 </div>
 </div>
@@ -114,8 +114,8 @@ Il existe de nombreuses méthodes pour réduire les biais, que l’on peut divis
 Concrètement, on peut revoir la pondération du nombre de personnes dans un jeu de données pour s’assurer qu’il y a autant d’hommes que de femmes et ainsi éviter un biais de genre. Pendant l’entraînement, il s’agit d’incorporer des contraintes d’équité à satisfaire, en complément des objectifs de performance classique. Enfin, les méthodes dites de post-traitement consistent à modifier les décisions des algorithmes, par exemple en favorisant les sous-groupes discriminés.
 
 
-<div style={{'margin-top': '1em', 'margin-bottom': '2em'}}>
-<div class="warning" style={{'font-size': '24px', 'color': '#69337A', 'border-left': 'solid #805AD5 4px', 'padding': '0.7em'}}>
+<div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
+<div className="warning" style={{'fontSize': '24px', 'color': '#69337A', 'borderLeft': 'solid #805AD5 4px', 'padding': '0.7em'}}>
 Pour qu’une entreprise soit à la fois juste et profitable, toutes les parties prenantes doivent échanger pour parvenir à des compromis acceptables 
 </div>
 </div>
