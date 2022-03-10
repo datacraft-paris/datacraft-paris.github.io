@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[363],{6392:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/philosophie","name":"philosophie","count":1,"permalink":"/blog/tags/philosophie"}')}}]);

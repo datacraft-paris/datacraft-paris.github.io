@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[895],{8407:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/semi-supervised","name":"semi-supervised","count":1,"permalink":"/blog/tags/semi-supervised"}')}}]);
