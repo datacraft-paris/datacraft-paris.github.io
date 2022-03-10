@@ -18,20 +18,6 @@ Cet article a été initialement publié le 15/02/2021 dans [Visionary](https://
 <!--truncate-->
 
 
-.
-
-.
-
-.
-
-**Job : Voir si possible d'inclure l'audio de l'interview d'Isabelle.**
-
-.
-
-.
-
-.
-
 ---
 
 # Datacraft : un club dédié à la data science et l’Intelligence Artificielle

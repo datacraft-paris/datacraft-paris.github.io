@@ -27,8 +27,6 @@ Stephanie Lehuger, Thinker et Entrepreneur, membre du <u>club Datacraft</u>, qui
 </div>
 
 
-
-
 Tous les humains ont des biais cognitifs, c’est inévitable. Et les data scientists sont des humains, donc ils sont fatalement sujets aux biais, comme tout le monde. Pour établir des connaissances, les data scientists analysent des données. Et ces données, si elles sont mal choisies, donnent de mauvais résultats. Ainsi, un biais cognitif se transforme en biais de donnée qui se transforme ensuite en biais algorithmique.
 
 On peut dire qu’un algorithme fonctionne comme une recette de cuisine où les ingrédients seraient les données et la recette le code : si les ingrédients (les données) sont de mauvaise qualité, avec des biais par exemple, le résultat ne peut qu’être décevant. La plupart du temps, les biais proviennent des données et cela se produit de deux manières.

@@ -17,27 +17,11 @@ Cet article a été initialement publié le 04/03/2021 dans [Archeologia Magazin
 
 <!--truncate-->
 
-
-.
-
-**Mettre les images avec les légendes.**
-
-.
-
-
 ---
 
 # CLASSIFICATION DES MAINS DE SCRIBES ASSISTÉE PAR L’INTELLIGENCE ARTIFICIELLE
 
 **Depuis 2019, L’Ifao et Sorbonne Université mènent conjointement un programme de recherches (ÉCRITURES – Pour une archéologie et une anthropologie des écritures de l’Égypte ancienne) afin de mieux comprendre les usages des différentes graphies égyptiennes et les acteurs impliqués. Si les textes de la vie courante (administration, lettres, littérature, sciences, textes magiques et rituels) étaient inscrits en hiératique, l’écriture principale des scribes égyptiens, une cursive dérivée des hiéroglyphes, ces derniers demeuraient limités à des usages monumentaux et sacrés.**
-
-
-<img width="33%" src="https://raw.githubusercontent.com/blog/img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg"/> 
-
-
-<p>
-<img src="img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg?raw=true" width="200" />
-</p>
 
 
 ![Annotation de l’ostracon IFAO 117](./img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg "Annotation de l’ostracon IFAO 117")
@@ -48,6 +32,13 @@ Exemple de signes annotés sur l’ostracon IFAO 117 rédigé de la main du scri
 
 # Identifier les mains pour connaître les lettrés
 <!-- IDENTIFIER LES MAINS POUR CONNAÎTRE LES LETTRÉS -->
+
+
+![Annotation de l’ostracon IFAO 117](./img/2021-03-04-Egyptologie/annotation.png "Annotation de l’ostracon IFAO 117")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Les signes significatifs ont été annotés dans les textes sur chaque photo. Ici, l’exemple du P. Lansing (British Museum) rédigé de la main du scribe Ounouemdiamon. Cette démarche permet d’indiquer des signes à comparer pour le réseau de neurones. © The Trustees of the British Museum / Vinci autoroutes
+</div>
+
 
 Les scribes, les auteurs et plus généralement les praticiens de l’écriture en Égypte ancienne, restent mal connus d’autant que leurs manuscrits sur papyrus ou sur ostraca (tessons de poterie ou morceaux de calcaire taillés inscrits) furent le plus souvent anonymes. Une des tâches des égyptologues consiste donc à examiner les styles individuels d’écriture pour rapprocher entre eux des documents issus d’une même main. Les outils de la paléographie aident à établir des comparaisons entre la forme de certains signes afin de regrouper des textes possiblement tracés par une même personne. Mais les caractéristiques à prendre en compte sont nombreuses (forme générale du signe, nombre de traits, taille, dynamisme de l’écriture, mise en page, régularité...) et constituent autant d’aspects difficiles à combiner et à comparer, pour l’œil et l’esprit humains, lorsque le nombre de documents se multiplie. 
 
