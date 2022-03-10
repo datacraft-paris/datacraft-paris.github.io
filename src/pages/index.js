@@ -61,7 +61,7 @@ function Home() {
       >
         <div className={clsx("container", styles.card)}>
           <h1 className="hero__subtitle" style={{color:"#0b7c39",fontSize:"40px"}}><img src="img/datacraft_logo_full.png" alt=" " width="250" height="40"/></h1>
-          <h1 className="hero__subtitle" style={{color:"black"}}>Welcome to the datacraft club blog!</h1>
+          <h1 className="hero__subtitle" style={{color:"black"}}>Welcome to datacraft's blog!</h1>
           <p className="hero__subtitle" style={{color:"black", marginBottom: 0}}>Inside the community of data scientists</p>
         </div>
       </header>
