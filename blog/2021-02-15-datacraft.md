@@ -26,8 +26,6 @@ Cet article a été initialement publié le 15/02/2021 dans [Visionary](https://
 
 **Job : Voir si possible d'inclure l'audio de l'interview d'Isabelle.**
 
-**Job : Rendre visible les légendes des images.**
-
 .
 
 .
@@ -43,39 +41,19 @@ Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplac
 
 ## Datacraft : un club data science et IA installé au cœur de La Sorbonne
 
-![image](./img/2021-02-15-datacraft/datacraft-scai.png "J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé")
-**il manque une légende pour cette image**
 
-<div>
-<img src='datacraft-scai.png' alt='An alternate text' />
+![Dans les locaux de datacraft](./img/2021-02-15-datacraft/datacraft-scai.png "Dans les locaux de datacraft")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Yann Gourvennec a rencontré Isabelle Hilali dans les locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge datacraft, le club de la data science et de l’IA qu’elle a créé
 </div>
 
-
-
-<img src="./img/2021-02-15-datacraft/datacraft-scai.png" alt="Je change encore ce texte" title="image Title" width="150"/>
-
-
-
-<!-- <img src='https://github.com/DrKapichu/drkapichu.github.io/blob/main/blog/img/2021-02-15-datacraft/datacraft-scai.png' alt='An alternate text' /> -->
-
-
-<!-- <figure>
-  <img width="85%" height="500px" src="./img/2021-02-15-datacraft/datacraft-scai.png" alt="datacraft" />
-  <figcaption>J’ai rencontré Isabelle Hilali dans ses locaux du SCAI (Sorbonne Center for Artificial Intelligence) qui héberge Datacraft, le club de la data science et de l’IA qu’elle a créé</figcaption>
-</figure>
-
-<figure>
-    <img src="./img/2021-02-15-datacraft/datacraft-scai.png"
-         alt="datacraft" />
-    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
-</figure> -->
 
 
 <div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
 <div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
 </div>
-<p style={{'color': '#000000', 'marginRight': '1em', 'text-align': 'right'}}> <b>- Isabelle Hilali – Datacraft</b> </p>
+<p style={{'color': '#000000', 'marginRight': '1em', 'textAlign': 'right'}}> <b>- Isabelle Hilali – Datacraft</b> </p>
 </div>
 
 
@@ -114,8 +92,15 @@ Il y a également le data ingénieur, le data scientist, le data analyst. Il y a
 
 Certains ont une formation assez classique, une grande école d’ingénieurs ou une grande école de math et d’informatique. Mais d’autres ont fait de la musique et ensuite se sont formés à la datascience.
 
-![image](./img/2021-02-15-datacraft/datacraft-scai.png "Même masqués, les ateliers datacraft de data science sont un moment privilégié d’échange et de travail")
-**il manque une légende pour cette image**
+
+
+![datacraft pendant un atelier](./img/2021-02-15-datacraft/un_atelier.webp "datacraft pendant un atelier")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Même masqués, les ateliers datacraft de data science sont un moment privilégié d’échange et de travail
+</div>
+
+
+
 
 Le bon data scientist, qui va être performant dans une organisation, doit être curieux. Il doit être ouvert à l’organisation dans laquelle il est, pour comprendre la situation et éviter de construire des modèles abstraits qui ne serviront à rien. Il doit comprendre les problématiques en allant chercher des données, en faisant de l’apprentissage machine, en développant des modèles, en s’interrogeant sur la meilleure façon d’aider à la connaissance, à la prise de décision.
 
