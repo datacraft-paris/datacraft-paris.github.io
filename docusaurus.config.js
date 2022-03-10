@@ -3,11 +3,11 @@ const path = require('path');
 module.exports = {
   title: 'datacraft blog',
   tagline: 'datablog - The blog of the datacraft community. A blog for rocky discussions.',
-  url: 'https://drkapichu.github.io/',
+  url: 'https://datacraft-paris.github.io/',
   deploymentBranch: 'gh-pages',
   baseUrl: '/',
-  organizationName: 'DrKapichu',         // Usually your GitHub org/user name.
-  projectName: 'drkapichu.github.io',    // Usually your repo name.
+  organizationName: 'datacraft-paris',         // Usually your GitHub org/user name.
+  projectName: 'datacraft-paris.github.io',    // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
