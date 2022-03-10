@@ -32,6 +32,20 @@ Cet article a été initialement publié le 04/03/2021 dans [Archeologia Magazin
 **Depuis 2019, L’Ifao et Sorbonne Université mènent conjointement un programme de recherches (ÉCRITURES – Pour une archéologie et une anthropologie des écritures de l’Égypte ancienne) afin de mieux comprendre les usages des différentes graphies égyptiennes et les acteurs impliqués. Si les textes de la vie courante (administration, lettres, littérature, sciences, textes magiques et rituels) étaient inscrits en hiératique, l’écriture principale des scribes égyptiens, une cursive dérivée des hiéroglyphes, ces derniers demeuraient limités à des usages monumentaux et sacrés.**
 
 
+<img width="33%" src="https://raw.githubusercontent.com/blog/img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg"/> 
+
+
+<p>
+<img src="img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg?raw=true" width="200" />
+</p>
+
+
+![Annotation de l’ostracon IFAO 117](./img/2021-03-04-Egyptologie/Ostracon-IFAO_117.jpg "Annotation de l’ostracon IFAO 117")
+<div style={{'textAlign':'center', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '5em'}}>
+Exemple de signes annotés sur l’ostracon IFAO 117 rédigé de la main du scribe Amennakhte. © Ifao.
+</div>
+
+
 # Identifier les mains pour connaître les lettrés
 <!-- IDENTIFIER LES MAINS POUR CONNAÎTRE LES LETTRÉS -->
 
