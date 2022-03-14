@@ -4,7 +4,7 @@ title: Few Shot Learning - application de la méthode iPET
 author: Kapichu
 author_title: astrophysicist
 author_url: mailto:julien.guyot@datacraft.paris
-header_image_url: img/blog/DataSparsity.jpg
+header_image_url: img/blog/DataSparsity2.jpg
 tags: [Few Shot Learning, PET, iPET, semi-supervised]
 description: Draft of the first blog
 keywords:
@@ -16,8 +16,6 @@ keywords:
 
 <!--truncate-->
 
-
-([source](https://numenta.com/blog/2019/08/30/case-for-sparsity-in-neural-networks-part-1-pruning) de l'image de présentaion)
 
 ---
 

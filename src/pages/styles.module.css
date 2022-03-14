@@ -43,12 +43,13 @@
 }
 
 header > .card {    /* <-- This modifies the style of the shaded presentation card on the home page */
-  background-color: #FFFFFF   /*rgba(22, 41, 60, .7);*/
+  width: 50%;
+  background-color: rgba(0, 72, 33, .73);   /*#FFFFFF;  rgba(22, 41, 60, .7);*/
 }
 
 main > .card {
   z-index: 10;    /* <-- This modifies the style of the two small  news and summary cards on the home page */
-  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  background-color: #004821;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
 }
 
 .mainCardColumn {

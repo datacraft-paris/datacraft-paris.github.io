@@ -39,7 +39,7 @@ function HomePageBlock({title,img,description,href}){
         <img src={useBaseUrl(img)}/>
       </div>
     }
-    <p style={{color:"black", marginBottom: 0}}>{description}</p> 
+    <p style={{color:"white", marginBottom: 0}}>{description}</p> 
   </Col>
   )
 }
@@ -57,24 +57,24 @@ function Home() {
       >
        <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
-        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration_blank.png')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
+        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration5.jpg')})`,backgroundSize:"cover", backgroundPosition: "bottom", minHeight:"calc(100vh - 300px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"#0b7c39",fontSize:"40px"}}><img src="img/datacraft_logo_full.png" alt=" " width="250" height="40"/></h1>
-          <h1 className="hero__subtitle" style={{color:"black"}}>Welcome to datacraft's blog!</h1>
-          <p className="hero__subtitle" style={{color:"black", marginBottom: 0}}>Inside the community of data scientists</p>
+          <h1 className="hero__subtitle" style={{color:"#0b7c39", textAlign:"center"}}><img src="img/datacraft_logo_full_blanc.png" alt=" " width="250" height="40"/></h1>
+          <h1 className="hero__subtitle" style={{color:"white", textAlign:"center"}}>Welcome to datacraft's blog!</h1>
+          <p className="hero__subtitle" style={{color:"white", marginBottom:0, textAlign:"center"}}>Inside the community of data scientists</p>
         </div>
       </header>
-      <main style={{ marginTop:"-40px" }}>
+      <main style={{ marginTop:"70px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
-            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/>
+            <HomePageBlock title="Blog" href="/blog" img="img/icons/datacraft blog petit.png" description="Browse our latest articles and experiments on Data Science & AI"/>
+            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/datacraft open source petit.png" description="Discover our open source contributions to the Data Science community"/>
           </Row>
         </div>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Our latest blog posts" href="" description={
+            <HomePageBlock title="Our latest blog posts" href="/blog" description={
               <>
                 <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
                   {recentPosts.items.slice(0, 5).map((item, index) => (

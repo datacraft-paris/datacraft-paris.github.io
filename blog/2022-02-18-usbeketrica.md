@@ -4,7 +4,7 @@ title: Comment veiller à ce que les biais humains n’imprègnent pas les algor
 author: Stéphanie Lehuger
 author_title: Thinker et entrepreneuse
 author_url: mailto:contact@datacraft.paris
-header_image_url: img/blog/UsberetRica.png
+header_image_url: img/blog/UsberetRica.jpg
 tags: [biais, algorithmes, IA, philosophie]
 description: Article publié dans Usbek & Rica le 18 février 2022
 keywords:
