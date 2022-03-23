@@ -57,19 +57,19 @@ function Home() {
       >
        <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
-        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration5.jpg')})`,backgroundSize:"cover", backgroundPosition: "bottom", minHeight:"calc(100vh - 300px)",zIndex:-1}}
+        style={{backgroundImage:`url(${useBaseUrl('img/HomePageIllustration6.jpg')})`,backgroundSize:"cover", backgroundPosition: "bottom", minHeight:"calc(100vh - 300px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"#0b7c39", textAlign:"center"}}><img src="img/datacraft_logo_full_blanc.png" alt=" " width="250" height="40"/></h1>
-          <h1 className="hero__subtitle" style={{color:"white", textAlign:"center"}}>Welcome to datacraft's blog!</h1>
-          <p className="hero__subtitle" style={{color:"white", marginBottom:0, textAlign:"center"}}>Inside the community of data scientists</p>
+          <h1 className="hero__subtitle" style={{color:"#0b7c39", textAlign:"center"}}><img src="img/datacraft_logo_full.png" alt=" " width="350" height="55"/></h1>
+          <h1 className="hero__subtitle" style={{color:"#004c23", fontSize:"50px", textAlign:"center"}}>Welcome to datacraft's blog!</h1>
+          <p className="hero__subtitle" style={{color:"#004c23", marginBottom:0, fontSize:"40px", textAlign:"center"}}>Inside the data scientists’ community</p>
         </div>
       </header>
       <main style={{ marginTop:"70px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Blog" href="/blog" img="img/icons/datacraft blog petit.png" description="Browse our latest articles and experiments on Data Science & AI"/>
-            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/datacraft open source petit.png" description="Discover our open source contributions to the Data Science community"/>
+            <HomePageBlock title="Blog" href="/blog" img="img/icons/datacraft blog petit.png" description="Browse our latest articles and experiments on data science & AI"/>
+            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/datacraft open source petit.png" description="Discover our open source contributions to the data science community"/>
           </Row>
         </div>
         <div className={clsx("container", styles.card)}>

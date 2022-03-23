@@ -20,12 +20,12 @@ Cet article a été initialement publié le 15/02/2021 dans [Visionary](https://
 
 ---
 
-# Datacraft : un club dédié à la data science et l’Intelligence Artificielle
+# datacraft : un club dédié à la data science et l’Intelligence Artificielle
 
-Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplace les humains par des robots, les experts de l’IA démontrent la supériorité des échanges humains. Car il y avait un besoin d’échange dans la communauté de la data science et [Isabelle Hilali](https://www.linkedin.com/in/isabelle-hilali-82b5111/), CEO et fondatrice de Datacraft, que [nous avions déjà interviewée](https://visionarymarketing.com/fr/2016/09/big-data-sante-combinaison-necessaire/) ici il y a quelques années, l’avait pressenti. Elle n’a pas hésité à lancer son club data science en plein milieu de la crise du Covid et a démontré, même en ces temps difficiles que tout est possible. Elle a démontré également que la nécessité de se parler, y compris pour les experts de l’IA et de la data science, est plus forte que jamais. Retour sur la création d’un club hors du commun, où se dessine collaborativement le futur de vos logiciels. 
+Un club Data Science et IA ? Là où beaucoup veulent absolument qu’on remplace les humains par des robots, les experts de l’IA démontrent la supériorité des échanges humains. Car il y avait un besoin d’échange dans la communauté de la data science et [Isabelle Hilali](https://www.linkedin.com/in/isabelle-hilali-82b5111/), CEO et fondatrice de datacraft, que [nous avions déjà interviewée](https://visionarymarketing.com/fr/2016/09/big-data-sante-combinaison-necessaire/) ici il y a quelques années, l’avait pressenti. Elle n’a pas hésité à lancer son club data science en plein milieu de la crise du Covid et a démontré, même en ces temps difficiles que tout est possible. Elle a démontré également que la nécessité de se parler, y compris pour les experts de l’IA et de la data science, est plus forte que jamais. Retour sur la création d’un club hors du commun, où se dessine collaborativement le futur de vos logiciels. 
 
 
-## Datacraft : un club data science et IA installé au cœur de La Sorbonne
+## datacraft : un club data science et IA installé au cœur de La Sorbonne
 
 
 ![Dans les locaux de datacraft](./img/2021-02-15-datacraft/datacraft-scai.png "Dans les locaux de datacraft")
@@ -39,7 +39,7 @@ Yann Gourvennec a rencontré Isabelle Hilali dans les locaux du SCAI (Sorbonne C
 <div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
 "J’ai observé que l’univers de la data science et des data scientists est un domaine sur lequel il faut apprendre tout le temps et où tout va extrêmement vite."
 </div>
-<p style={{'color': '#000000', 'marginRight': '1em', 'textAlign': 'right'}}> <b>- Isabelle Hilali – Datacraft</b> </p>
+<p style={{'color': '#000000', 'marginRight': '1em', 'textAlign': 'right'}}> <b>- Isabelle Hilali – datacraft</b> </p>
 </div>
 
 
@@ -54,7 +54,7 @@ C’est un univers sur lequel il y a beaucoup de liberté puisque ce sont des m�
 </div>
 </div>
 
-Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour permettre de se retrouver pour collaborer. C’est un lieu ouvert. Et c’est là que Datacraft s’est implanté, entre la tour de Jussieu et le jardin des plantes.
+Le Centre d’intelligence artificielle de la Sorbonne a été imaginé pour permettre de se retrouver pour collaborer. C’est un lieu ouvert. Et c’est là que datacraft s’est implanté, entre la tour de Jussieu et le jardin des plantes.
 
 
 <iframe width="85%" height="500px" src="https://www.youtube.com/embed/0xtPrTo-13o" alt="Présentation de datacraft par Isabelle" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -111,16 +111,16 @@ Je me suis dit qu’il faudrait qu’il y ait des lieux qui permettent aux gens 
 
 <div style={{'marginTop': '1em', 'marginLeft': '9em', 'marginRight': '9em', 'marginBottom': '1em'}}>
 <div className="warning" style={{'fontSize': '16px', 'backgroundColor': '#CCCCCC', 'color': '#000000', 'borderLeft': 'solid #FF3300 2px', 'padding': '0.8em'}}>
-"Notre volonté avec Datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques"
+"Notre volonté avec datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques"
 </div>
 </div>
 
-<!-- > "Notre volonté avec Datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques" -->
+<!-- > "Notre volonté avec datacraft était de créer ce réseau de lieux pour se retrouver entre experts pour un échange de bonnes pratiques" -->
 
 
-## Le lancement de Datacraft, le club data science et IA
+## Le lancement de datacraft, le club data science et IA
 
-J’ai lancé DataCraft en janvier 2020, avec le groupe Accor et l’Insep, les deux premiers membres qui m’ont fait confiance, et dans de supers locaux dans le Marais.
+J’ai lancé datacraft en janvier 2020, avec le groupe Accor et l’Insep, les deux premiers membres qui m’ont fait confiance, et dans de supers locaux dans le Marais.
 
 Tout cela a pris forme début février avec l’ouverture des locaux, avec également notre système de résidence où l’on accueille à la fois des chercheurs, et des freelances qui font partie de la communauté, qui ne paient pas d’adhésion, mais qui donnent du temps à la communauté.
 
@@ -161,12 +161,12 @@ C’est ça notre objectif, un échange de bonnes pratiques, où même les « su
 
 Cela va bien au delà bien sûr. De nombreux partenariats se nouent, qu’on n’aurait jamais imaginé. Un partenariat entre Vinci Autoroutes et le sport de haut niveau par exemple.
 
-Ou encore une startup qui travaille sur les données des réseaux sociaux en santé, qui va découvrir une expertise complémentaire chez un membre de Datacraft, et envisager de monter un gros projet européen sur les fakenews médicales.
+Ou encore une startup qui travaille sur les données des réseaux sociaux en santé, qui va découvrir une expertise complémentaire chez un membre de datacraft, et envisager de monter un gros projet européen sur les fakenews médicales.
 
 Ou encore Danone, par exemple, qui est en train de rédiger sa [charte](https://visionarymarketing.com/fr/glossaire/marketing-ethique/) sur l’utilisation responsable des données, qui la réalise avec d’autres membres qui l’ont déjà fait pour l’écrire ensemble.
 
 
-## L’avenir pour Datacraft, le club de la data science
+## L’avenir pour datacraft, le club de la data science
 
 L’idée était d’avoir un lieu qui donne envie de collaborer et de se poser des questions sur la façon dont on travaille la data, quelle responsabilité on a envers la société.
 

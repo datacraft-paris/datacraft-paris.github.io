@@ -22,7 +22,7 @@ keywords:
 
 <div style={{'marginTop': '1em', 'marginBottom': '2em'}}>
 <div className="warning" style={{'fontSize': '28px', 'color': '#69337A', 'padding': '1.0em'}}>
-Stephanie Lehuger, Thinker et Entrepreneur, membre du <u>club Datacraft</u>, qui réfléchit aux questions éthiques soulevées par l’IA, nous explique dans cette tribune de quels outils et méthodes nous disposons actuellement pour qu’un préjugé humain ne se retrouve pas dans l’algorithme d’une intelligence artificielle.
+Stephanie Lehuger, Thinker et Entrepreneur, membre du <u>club datacraft</u>, qui réfléchit aux questions éthiques soulevées par l’IA, nous explique dans cette tribune de quels outils et méthodes nous disposons actuellement pour qu’un préjugé humain ne se retrouve pas dans l’algorithme d’une intelligence artificielle.
 </div>
 </div>
 

@@ -44,7 +44,7 @@
 
 header > .card {    /* <-- This modifies the style of the shaded presentation card on the home page */
   width: 50%;
-  background-color: rgba(0, 72, 33, .73);   /*#FFFFFF;  rgba(22, 41, 60, .7);*/
+  /*background-color: rgba(0, 72, 33, .73);*/   /*#FFFFFF;  rgba(22, 41, 60, .7);*/
 }
 
 main > .card {

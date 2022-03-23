@@ -65,6 +65,21 @@
   font-weight:900;
 }
 
+@font-face {
+  font-family: "ThinCustom";
+  src: url("/fonts/Inter-Thin.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "datacraftFontRegular";
+  src: url("/fonts/barlow-condensed.regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "datacraftFontBold";
+  src: url("/fonts/barlow-condensed.bold.ttf") format('truetype');
+}
+
 .container-wide{
   max-width:90% !important;
 }
@@ -89,20 +104,25 @@
 
 
 body{
-  font-family: "InterCustom";
-  /* font-size:14px; */
+  font-family: "datacraftFontRegular";  /*"InterCustom";*/
+  /* This is the font of the content of the blog posts (but not the cards!!), the open source page (except the card and the title 'Open source contributions')
+  and inside the different cards of the home page: 'Inside the data scientists' community' (below the title 'Welcome to datacraft's blog'), the texts below Blog, Open Source and Our latest blog posts. */
+   font-size:22px; 
 }
 
 h1{
-  font-family: "Tiempos";
+  font-family: "datacraftFontBold";  /*"Tiempos";*/
+  /* This changes the font of 'Welcome to datacraft's blog', 'Blog', 'Open Source', 'Our latest blog posts' (on the Home page), and 'Open source contributions' (on the Open Source page). */
 }
 
 .navbar__title{
   font-family: "Tiempos";
+  /* This does not seem to change anything actually... */
 }
 
 .navbar__item{
-  font-size:16px;
+  font-size:22px;
+  /*font-family:"ThinCustom"; <-- If you want to change specifically the font of the navbar, you can do it here. */
 }
 
 .navbar__brand{
@@ -118,7 +138,7 @@ h1{
 }
 
 .datacraft-green{
-  color: #15db69;
+  color: #004c23;
 }
 
 .hero__title{
@@ -130,12 +150,12 @@ h1{
   background-color: #FFFFFF   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
 }
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
+  /* box-shadow: 0 4px 8px 10px rgba(21, 219, 105, 0.2); */
   /* max-width: 300px; */
   margin: auto;
   text-align: center;
-  font-family: arial;          /* <-- This is the general theme color of the shortcard - see Blog page */
-  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+  font-family: InterCustom;     /* This changes the font of cards displayed on the Blog page */
+  background-color: #FFFFFF;    /* This changes the theme color of the cards on the Blog page */
   border-radius: 0px;
   height:100%;
 }
@@ -167,9 +187,11 @@ html[data-theme="dark"]{             /* <-- Background color of all pages... | P
   padding: 0 var(--ifm-pre-padding);
 }
 
+
 .prism-code{
   font-size: 14px;
 }
+
 
 .badge.badge--primary{
   margin-right:5px;
@@ -177,32 +199,35 @@ html[data-theme="dark"]{             /* <-- Background color of all pages... | P
   font-family:"InterCustom";
 }
 
-.badge{
+
+.badge{  /* This changes of the little badges of keywords on the cards of the Blog page. */
   font-size:70%
 }
 
 .badge.badge--primary > a{
   color:black;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";  /* This changes the font of the text inside the little badges on the cards of the Blog page. */
 }
 
 
-
-.longcard{                     /* <-- This is the general theme color of the Longcard - see Open Source page */
-  background-color: #FFFFFF;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+/* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+.longcard{
+  background-color: #FFFFFF;   /* This is the theme color of the longcard displayed on the Open Source page */
   margin-bottom: 40px;
   padding-bottom:0px !important;
   min-height:200px;
 
 }
 
+
 .shortcard-container{
   margin-bottom: 30px;
 }
 
 
-.shortcard{                    /* <-- This is the general theme color of the shortcard - I don't know where it's applied */
-  background-color: #5a3257;   /* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+/* Violet -> #5a3257; Dark blue -> #16293c; Light gray -> #32475a; Green -> #0b7c39; */
+.shortcard{
+  background-color: #5a3257;      /* <-- This is the general theme color of the shortcard - I don't know where it's applied */
   padding-bottom:0px !important;
   margin-right:10px;
   height:100%;
@@ -222,27 +247,30 @@ html[data-theme="dark"]{             /* <-- Background color of all pages... | P
 
 
 .longcard-body{
-  padding:20px!important;
+  padding:20px !important;
   margin:auto;
   /* min-height:200px; */
 }
 
+
 .longcard-description{
-  font-family:"InterCustom";
+  font-family:"datacraftFontRegular";   /* This changes the font of the text on the card on the Open Source page; but not the title 'EthicalAI'. */
   margin-bottom:0px;
   vertical-align: middle;
 }
 
+
 .longcard-title{
-  font-family:"InterCustom";
+  font-family:"datacraftFontRegular";   /* This changes the font of the title ('EthicalAI') on the card on the Open Source page. */
   font-size:24px;
   margin-bottom:0px;
   vertical-align: middle;
 }
 
-.shortcard-title{
+
+.shortcard-title{             /* This style does not seem to be applied anywhere. */
   font-family:"InterCustom";
-  font-size:20px;
+  font-size:200px;
   margin-bottom:0px;
   vertical-align: middle;
 }
@@ -251,6 +279,7 @@ html[data-theme="dark"]{             /* <-- Background color of all pages... | P
 .avatar__name{
   font-size:12px !important;
 }
+
 
 .avatar__intro > time{
   font-size:12px !important;
