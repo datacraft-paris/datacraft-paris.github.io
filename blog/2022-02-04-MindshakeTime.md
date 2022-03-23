@@ -4,7 +4,7 @@ title: Few Shot Learning - application de la méthode iPET
 author: Kapichu
 author_title: astrophysicist
 author_url: mailto:julien.guyot@datacraft.paris
-header_image_url: img/blog/DataSparsity2.jpg
+header_image_url: img/blog/DataSparsity.jpg
 tags: [Few Shot Learning, PET, iPET, semi-supervised]
 description: Draft of the first blog
 keywords:
