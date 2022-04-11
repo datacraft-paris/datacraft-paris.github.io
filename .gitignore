@@ -25,3 +25,4 @@ static/img/HomePageIllustration_blank.svg
 blog/.ipynb_checkpoints/
 blog/Untitled.ipynb
 
+src/components/HomeCard.js

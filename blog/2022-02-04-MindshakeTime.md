@@ -1,12 +1,12 @@
 ---
-slug: draft
+slug: mindshake-time-on-iPET-method
 title: Few Shot Learning - application de la méthode iPET 
-author: Kapichu
-author_title: astrophysicist
-author_url: mailto:julien.guyot@datacraft.paris
+author: Julien Guyot
+author_title: Data scientist
+author_url: mailto:contact@datacraft.paris
 header_image_url: img/blog/DataSparsity.jpg
 tags: [Few Shot Learning, PET, iPET, semi-supervised]
-description: Draft of the first blog
+description: A summary of the datacraft mindshake time on the iPET method
 keywords:
     - datacraft
     - Deep Learning
