@@ -19,7 +19,7 @@ keywords:
 
 ---
 
-## Qu’est ce que le Few Shot Learning (FSL) ? - titre alternatif : Sujet du jour : le Few Shot Learning (FSL)
+## Qu’est ce que le Few Shot Learning (FSL) ?
 
 Il est bien connu que la puissance des méthodes de Machine Learning supervisées, et plus particulièrement de Deep Learning avec les réseaux de neurones, depuis le début des années 2000, a reposé sur la constitution de **grands jeux de données labellisés**. Deux éléments sont importants ici : ‘grands’ et ‘labellisés’.
 
@@ -28,7 +28,7 @@ Pour le premier point, ça représente par exemple des milliers, voire des milli
 Dans le cas du **Few Shot Learning (FSL)**, les chercheurs veulent créer des méthodes capables d’apprendre avec peu de données, i.e. des dizaines ou des centaines, ce qui représente un gain de temps et d’énergie, tout en conservant des performances équivalentes aux modèles traditionnels bien sûr. C’est pourquoi en français on parle d’**apprentissage frugal**. Toutefois, en pratique les méthodes de FSL prennent un modèle traditionnel, pré-entraîné sur un grand nombre de données, et elles le spécialisent sur le cas d’usage via une courte phase d’apprentissage sur le petit jeu de données à disposition ; c’est du fine-tuning. Mais en plus, le Few Shot c’est une méthode qui va au-delà des méthodes traditionnelles, elle permet de faire du semi-supervisé, c’est ce qu’on va voir avec le cas d’usage.
 
 
-## Le cas d’usage - titre alternatif : C’est quoi le problème ?!
+## Le cas d’usage
 
 Ekimetrics s’est intéressé à l’apprentissage frugal pour exploiter les énormes jeux de données des petits commentaires quotidiens sur internet, avec une problématique de gain de temps… De la frugalité avec des énormes jeux de données ? On vous explique !
 
@@ -48,22 +48,14 @@ Concrètement, reprenons notre exemple des évaluations des restaurants, la mét
  - y associer aléatoirement un pattern,
  - soumettre le tout au PLM qui va le compléter en choisissant un verbalizer.
 
-<!-- ![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET"){ width=50 height=50 } -->
 
-![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET"){:.image-left}
-
-<!-- style="float: left"; marginRight: 10em; height="25%" width="25%"} -->
-
-<!-- <img src="./img/2022-02-04-MindshakeTime/PET.png" alt="A cute kitten"
-    title="A cute kitten" width="100" height="100" /> -->
-
-<!-- [<img src="./img/2022-02-04-MindshakeTime/PET.png" width="50"/>](./img/2022-02-04-MindshakeTime/PET.png) -->
+![image](./img/2022-02-04-MindshakeTime/PET.png "Schema of a basic PET")
 
 
-Par exemple (voir Fig. 1), avec le commentaire “Best pizza ever!”, on construit la phrase à trou : “Best pizza ever! It was … .” que le PLM va compléter avec ‘great’ avec une confiance de 0.8, sachant que ce mot est noté +1.
+Par exemple (voir figure ci-dessus), avec le commentaire “Best pizza ever!”, on construit la phrase à trou : “Best pizza ever! It was … .” que le PLM va compléter avec ‘great’ avec une confiance de 0.8, sachant que ce mot est noté +1.
 
 
-## FSL + PET : première application aux avis internet
+## PET : première application aux avis internet
 
 Revenons à la masse brute des avis des consommateurs sur internet. **PET est la méthode** pour associer une note à un commentaire, le **FSL est le moyen** de traiter automatiquement tout le jeu de données, et le travail de l’algorithme se fait en deux étapes.
 
@@ -97,19 +89,9 @@ Pour la troisième itération, vous avez compris le principe je pense…
 
 Nous avons déjà vu certains des avantages. Internet est une place sur laquelle il y a pléthore d’avis en tout genre : films, restaurants, hôtels, produits de grande consommation, lieux divers… Annoter ces données serait un travail coûteux et sans fin, nous l’avons dit. L’approche iPET permet d’automatiser cette étape, à la vitesse de l’ordinateur et quel que soit le cas d’étude.
 
-Du point de vue des performances, Ekimetrics a indiqué avoir une précision de 88% avec seulement 50 données labellisées au départ, et même 84% avec 10 données labellisées !! En comparaison, les modèles supervisés peuvent atteindre des précisions de 99%, mais au prix d’un énorme travail de pré-traitement. C’est donc un pas conceptuel de plus dans la réduction de la supervision.
+Du point de vue des performances, Ekimetrics a indiqué avoir une précision de 88% avec seulement 50 données labellisées au départ, et même 84% avec 10 données labellisées !! En comparaison, les modèles supervisés peuvent atteindre des précisions de 90%, mais au prix d’un énorme travail de pré-traitement. C’est donc un pas conceptuel de plus dans la réduction de la supervision.
 
 Toutefois, le domaine d’application se restreint à des données textuelles assez courtes d’une part. Et d’autre part, la charge de travail est déplacée vers une bonne conceptualisation du cas d’étude. Les résultats sont extrêmement dépendants de la formulation des patterns et des choix de verbalizers (i.e. choix du prompting). Ceux-ci impliquent une grande variabilité qui n’est pas maîtrisée. De plus le PLM utilisé - un modèle BERT dans le cas d’Ekimetrics, cache des inconnues sur le corpus qui a servi à son entraînement, son domaine d’applicabilité, ses paramètres. On touche là à une limite dans laquelle l’IA n’est plus tout à fait de l’open science.
 
 
----
-
-# Notes de Xavier que je n'ai pas mises
-
-## LIMITES et PISTES D'AMÉLIORATIONS
-
-PLM ou Foundation modèle avec quelles données a-t-il été entraîné ???
-
-Que donnerait l’utilisation de plusieurs PLM ?
-
-une amélioration de ces approches est proposé dans le papier [https://arxiv.org/pdf/2103.11955.pdf](https://arxiv.org/pdf/2103.11955.pdf). 
+Enfin, si vous souhaitez pousser plus loin ce sujet, sachez qu'une amélioration de ces approches est proposée dans cette [publication](https://arxiv.org/pdf/2103.11955.pdf) que nous vous invitons à lire.
