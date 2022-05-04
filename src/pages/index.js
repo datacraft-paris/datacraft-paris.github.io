@@ -51,8 +51,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout 
-      title={`datacraft - the club for data scientists`} 
-      description="datacraft - the club for data scientists. Inside the community" 
+      title={'This is my text 2'}  /*{`datacraft - the club for data scientists`}*/ 
+      description="This is my text 3" /*datacraft - the club for data scientists. Inside the community"*/ /*This here changes the preview on social media when sharing the blog URL.*/
       keywords={["datacraft","club","community","Data Science","Machine Learning","Artificial Intelligence"]}
       >
        <header 
