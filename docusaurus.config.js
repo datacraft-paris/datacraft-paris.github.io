@@ -32,7 +32,7 @@ module.exports = {
         src: 'img/datacraft_logo_full-petit.png',             // This changes the logo that appears side-to-side with the 'datacraft' button in the navigation bar.
       },
       items: [
-        {to: 'blog/', label: 'Belzebuth', position: 'left'},
+        {to: 'blog/', label: 'Blog', position: 'left'},
         /*{to: 'docs/', label: 'Docs', position: 'left'},*/
         {to: 'opensource/', label: 'Open Source', position: 'left',},
 
