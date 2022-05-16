@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://datacraft-paris.github.io/blog</id>
-    <title>Title Blog</title>
+    <title>Essai 2 Blog</title>
     <updated>2022-05-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://datacraft-paris.github.io/blog"/>
-    <subtitle>Title Blog</subtitle>
+    <subtitle>Essai 2 Blog</subtitle>
     <icon>https://datacraft-paris.github.io/img/datacraft_logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Comment nos préjugés deviennent un problème éthique pour une intelligence artificielle ?]]></title>
