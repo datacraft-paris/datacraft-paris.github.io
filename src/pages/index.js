@@ -51,7 +51,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout 
-      title="datacraft's blog"   /*{`datacraft - the club for data scientists`}*/ 
+      title="Welcome"   /*{`datacraft - the club for data scientists`}*/ 
       description='The club for data experts'   /*"datacraft - the club for data scientists. Inside the community"*/
       keywords={["datacraft","club","community","Data Science","Machine Learning","Artificial Intelligence"]}
       >
