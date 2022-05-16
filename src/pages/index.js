@@ -68,7 +68,7 @@ function Home() {
       <main style={{ marginTop:"70px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Blog" href="/blog" img="img/icons/datacraft blog petit.png" description="Browse our latest articles and experiments on data science & AI"/>
+            <HomePageBlock title="Chouette Hulote" href="/blog" img="img/icons/datacraft blog petit.png" description="Browse our latest articles and experiments on data science & AI"/>
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/datacraft open source petit.png" description="Discover our open source contributions to the data science community"/>
           </Row>
         </div>

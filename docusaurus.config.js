@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  title: "datacraft's blog",  // 'datacraft blog',
   tagline: 'datablog - The blog of the datacraft community. A blog for rocky discussions.',
   url: 'https://datacraft-paris.github.io/',
   deploymentBranch: 'gh-pages',
@@ -31,7 +32,7 @@ module.exports = {
         src: 'img/datacraft_logo_full-petit.png',             // This changes the logo that appears side-to-side with the 'datacraft' button in the navigation bar.
       },
       items: [
-        {to: 'blog/', label: 'Blog', position: 'left'},
+        {to: 'blog/', label: 'Belzebuth', position: 'left'},
         /*{to: 'docs/', label: 'Docs', position: 'left'},*/
         {to: 'opensource/', label: 'Open Source', position: 'left',},
 

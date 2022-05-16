@@ -25,7 +25,7 @@ function BlogTagsPostPage(props: Props): JSX.Element {
   return (
     <Layout
       title={`Posts tagged "${tagName}"`}
-      description={`Blog | Tagged "${tagName}"`}
+      description={`Zebulon | Tagged "${tagName}"`}
       wrapperClassName="blog-wrapper">
       <div className="container margin-vert--lg">
         <div className="row">
