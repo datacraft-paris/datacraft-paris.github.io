@@ -13,7 +13,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/datacraft_logo.png',
   themeConfig: {
-    image:"img/datacraft-team-3.JPG",    // This changes the previsualisation image some apps display (WhatsApp, Slack...) display when you send the link of the website.
+    image:"img/datablog-illustration.jpg",    // This changes the previsualisation image some apps display (WhatsApp, Slack...) display when you send the link of the website.
     prism: {theme: require('prism-react-renderer/themes/dracula'), additionalLanguages: ['python'],},
     colorMode:{defaultMode:"dark", disableSwitch:true,},
     googleAnalytics: {trackingID: 'UA-124520099-9',
