@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: "datacraft's blog",  // 'datacraft blog',
-  tagline: 'datablog - The blog of the datacraft community. A blog for rocky discussions.',
+  description: 'datablog - The blog of the datacraft community. A blog for rocky discussions.',
   url: 'https://datacraft-paris.github.io/',
   deploymentBranch: 'gh-pages',
   baseUrl: '/',
