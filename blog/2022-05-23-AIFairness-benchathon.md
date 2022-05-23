@@ -6,7 +6,7 @@ author_title: Lead Data Scientist at Danone
 author_url: mailto:antoine.isnardy@danone.com
 header_image_url: img/blog/AIFairness-benchathon.jpg
 tags: [benchathon, fairness, aif360, fairlearn, ethicalai]
-description: IA et biais (2/3) - Quels outils pour mesurer et atténuer ?
+description: AI and bias (2/3) - What tools to measure and mitigate?
 keywords:
     - fairness
     - ethicalai
