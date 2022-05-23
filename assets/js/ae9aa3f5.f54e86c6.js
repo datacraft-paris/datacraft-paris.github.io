@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[669],{9448:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/ethicalai","name":"ethicalai","count":1,"permalink":"/blog/tags/ethicalai"}')}}]);

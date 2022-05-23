@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[648],{1610:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/aif-360","name":"aif360","count":1,"permalink":"/blog/tags/aif-360"}')}}]);

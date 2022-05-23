@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdrkapichu=self.webpackChunkdrkapichu||[]).push([[174],{1690:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/benchathon","name":"benchathon","count":1,"permalink":"/blog/tags/benchathon"}')}}]);
